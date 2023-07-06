@@ -1,0 +1,680 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*navbar css starts here*/
+:root {
+	--green: #83e035;
+	--grey: #ccc;
+	--white: #fff;
+}
+#loading{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: #fff url('https://www.animatedimages.org/data/media/298/animated-eat-and-drink-image-0108.gif')
+	no-repeat center;
+	z-index: 10000; 
+}
+header{
+	position: sticky;
+	top: 0;
+	z-index: 999;
+}
+
+img{
+	display: inline-block;
+	max-width: 100%;
+	height: 300px;
+}
+.index_nav{
+	min-height: 70px;
+	background:#0000009c;
+	z-index: 999;
+}
+.nav-item .nav-link{
+	font-weight: bold;
+	font-size: 15px;
+}
+.icon .fa-brands{
+	font-size: 19px;
+}
+.co-work{
+	color: white;
+	font-weight: bolder;
+}
+@media screen and (max-width: 1300px) and (min-width: 991px){
+	.gapping{
+		margin: 0px 50px !important;
+	}
+}
+@media (max-width: 991px){
+	.gapping{
+		margin: 0px !important;
+	}
+	.navbar{
+		min-height: 70px;
+		background: #ffc107;;
+		z-index: 999;
+	}
+	.index-nav{
+		margin: auto;
+		width: 100%;
+		text-align: center;
+		line-height: 30px;
+	}
+	.co-work{
+		color: black;
+	}
+/*	banner_section css starts here*/
+.creative_title{
+	font-size: 38px !important;
+}
+.lorem_para{
+	width: 90% !important;
+	margin: 25px auto !important;
+	font-size: 20px !important;
+}
+.professional_title{
+	width: 100%;
+	margin: auto;
+	font-size: 32px !important;
+}
+}
+/*navbar css end here*/
+.owl-carousel .item{
+	position: relative;
+}
+img{
+	width: 100%;
+	height: 850px;
+	position: relative;
+}
+.banner_title{
+	position: absolute;
+	top: 100px;
+	width:100%;
+	height: 100vh;
+	text-align: center;
+	color: red;
+	z-index: 1;
+	color: whitesmoke;
+}
+.creative_title{
+	font-size: 45px;
+	line-height: 30px;
+	font-weight: bold;
+	color: 	 #20a997;
+}
+.techno_para{
+	letter-spacing: 3px;
+	font-weight: 800;
+	color: black;
+	font-size: 19px;
+}
+.lorem_para{
+	width: 60%;
+	margin: auto;
+	font-size: 30px;
+	color: #a6708a;
+	line-height: 35px;
+}
+.get{
+	background: teal;
+	border: none;
+}
+.get:hover{
+	background: linear-gradient( rosybrown , goldenrod);
+}
+.benefit_title{
+	color: #20a997;
+	font-size: 15px;
+	letter-spacing: 4px;
+}
+.benefit_title::after{
+	content: " ";
+	width: 30px;
+	height: 30px;
+	background: #4a4a4a;
+	position: absolute;
+	border-radius: 50px;
+	border-right: 12px solid red;
+}
+.para_box{
+	overflow: scroll;
+	width: auto;
+	height: 70vh;
+	overflow-x: hidden;
+}
+.para{
+	font-size: 20px;
+	word-spacing: 2px;
+	text-align: left;
+}
+.fa-solid{
+	color: #665866;
+}
+.svg_color{
+	color: #a1ce55;
+}
+.welcome_title{
+	font-family: 'material design icons';
+	color: teal;
+	font-size: 45px;
+	font-weight: bold;
+}
+.parted_container{
+	margin: 100px 0;
+/*	padding: 0px 100px;*/
+}
+.decoration-box{
+	position: relative;
+	width: 465px;
+}
+.rel{
+	position: relative;
+	height: 450px;
+	border: 10px solid #26789b;
+	margin-top: 100px;
+}
+img.test{
+	position: absolute;
+	margin-top: 40px;
+	left: -35px;
+	height: 350px;
+}
+img.test2{
+	display: none;
+}
+@media (max-width: 575px){
+	img.test{
+		margin-top: 40px;
+		height: 300px;
+		left: 0px;
+	}
+	.rel{
+		display: none;
+		width: 0px;
+	}
+	img.test2{
+		display: block !important;
+	}
+}
+@media screen and (max-width: 768px) and (min-width: 576px){
+	img.test{
+		width: 100%;
+		margin-top: 30px !important;
+		height: 300px;
+		left: -30px;
+	}
+	.rel{
+		height: 380px;
+		margin: auto;
+	}
+}
+@media screen and (max-width: 991px) and (min-width: 769px){
+	.decoration-box{
+		width: 570px;
+	}
+	img.test{
+		width: 100% !important;
+		margin-top: 40px !important;
+		height: 300px;
+	}
+	.rel{
+		height: 400px;
+		margin: auto;
+	}
+} 
+
+/*section_three boxes css starts here*/
+
+.box{
+	height: auto;
+	box-shadow: inset 2px 0px 20px 20px rgb(227 11 61 / 5%);
+}
+.inner h1{
+	font-size: 72px;
+	line-height: 70px;
+	font-weight: 600;
+	opacity: 0.3;
+	color: #26789b;
+}
+a{
+	color: #a58838;
+}
+.products_section{
+	background: url('images/basic.jpg');
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.basic{
+	color: #2D5DA1;
+	font-size: 45px;
+	font-weight: bold;
+	margin-top: 50px;
+	background: #DEA681;
+	font-family: 'philospher';
+}
+.container_border{
+	width: 100%;
+	height: auto;
+	border: 5px solid white;
+}
+.border{
+	height: auto;
+	border: 15px solid #2D5DA1 !important;
+}
+
+/*contact_section css starts here*/
+.contact_section{
+	background: #B56917;
+	height: auto;
+}
+.contact_text{
+	color:  #0000009c;
+	letter-spacing: 1.3px;
+	word-spacing: 1px;
+	line-height: 28px;
+	text-align: justify;
+	font-size: 1.04rem;
+	font-weight: 300;
+}
+.main_contact{
+	margin-top: 50px;
+}
+.address_text{
+	color:  #0000009c;
+	line-height: 28px;
+	text-align: justify;
+	font-size: 1.04rem;
+	font-weight: 300;
+}
+.mobile{
+	color:  #0000009c;
+	font-weight: 300;
+}
+.footer_section{
+	background: #AA4069;
+	width: 100%;
+	height: auto;
+}
+.footer_text{
+	line-height: 25px;
+	color: white;
+	font-size: 0.9rem;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+@media (max-width:768px){
+	.decorative_box:before{
+		display: none;
+	}
+}
+
+/*home page css ends here*/
+
+/*benefits css starts here*/
+.icons , .fa , .pin , .what{
+	width: 40px;
+	height: 43px;
+	border-radius: 3px;
+}
+.icons{
+	background: teal;
+}
+.fa{
+	background: #29c5f6;
+}
+.pin{
+	background: #CA212A;
+}
+.what{
+	background: greenyellow;
+}
+.warning_box{
+	width: 340px;
+	height: 340px;
+	opacity: 0.7;
+}
+.health_title{
+	font-weight: lighter;
+	color: darkred;
+}
+.mil_count{
+	font-weight: lighter;
+	font-size: 65px;
+}
+.order_div{
+	display: inline-block;
+	color: white;
+	height: 30px;
+}
+.founder_title::before{
+	content: " ";
+	width: 350px;
+	height: 30px;
+	position: absolute;
+	border-bottom: 3px solid rgb(239 160 2 / 79%);
+}
+.ayur_text{
+	font-weight: 400;
+	font-size: 17px;
+	word-spacing: 2px;
+}
+@media (max-width: 991px){
+	.benf_nav{
+		min-height: 30px !important;
+		background: #2b3238;
+		z-index: 999;
+	}
+	.navbar-nav .nav-link.benf-item-color , .icon .benf-item-color{
+		color: white !important;
+	}
+}
+@media (max-width: 368px){
+	.founder_title::before{
+		content: ' ';
+		width: 296px;
+	}
+	.warning_box{
+		width: 300px;
+	}
+}
+
+/*Benefits css ends here*/
+
+/*contact css starts here*/
+.summer_section{
+	background: #DBC8AA;
+}
+.contact_nav_height{
+	min-height: 17vh;
+}
+.upper_nav{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	color: maroon;
+}
+.upper_nav li:hover{
+	color: seagreen;
+}
+.con_icons,.bi{
+	font-size: 18px;
+	color: #510400;
+}
+.bg,.contact_section_{
+	background: #510400;
+}
+.line{
+	width: 0.6px;
+	height: 35px;
+	background: grey;
+}
+.nav-links-bar,.footer_section_{
+	background: #DBC8A999;
+}
+@media(max-width: 991px){
+	.favicon{
+		width: 25%;
+	}
+}
+
+.pure_title{
+	font-family: rosario , sans-serif;
+	color: #510400;
+	font-weight: 300;
+	font-size: 25px;
+
+}
+.submit{
+	background: #510400;
+	box-shadow: 6px 0px 10px 1px grey;
+}
+.submit:hover{
+	background: #510400;
+}
+.info_text_color{
+	color: #510400;
+}
+
+/*service css starts here*/
+.doctor-introduction{
+	font-family: open sans, sans-serif;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+.dr-sharma img{
+	width: 100%;
+	height: 80vh;
+	background-size: cover;
+}
+.service-sec-2{
+	background-color: #cccccc53;
+}
+.service-sec-2 h2{
+	font-size: 45px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;   
+}
+.service-sec-2 img{
+	width: 100%;
+	background-size: cover;
+}
+.service-sec-2 h3{
+	font-size: 24px;
+	font-weight: bold;
+	color: var(--green);
+	/* text-transform: uppercase; */
+	text-align: center;   
+}
+footer{
+	width: 100%;
+	height: auto;
+	background-color: black;
+}
+.footer-about h3{
+	font-family: 'PT Sans', sans-serif;
+	text-transform: uppercase;
+	color: var(--grey);
+}
+.footer-about p{
+	color: var(--grey);
+	font-family: 'Philosopher';
+	line-height: 34px;
+	font-size: 18px;
+	font-weight: 500 !important;
+}
+
+span .fa-solid , .fa-regular{
+	color: var(--green);
+}
+span a , li a{
+	color: var(--grey);
+	text-decoration: none;
+}
+span a:hover ,li a:hover{
+	color: var(--green);
+	transition: ease-in .10s;
+}
+
+.footer-about ul li{
+	list-style: none;
+	line-height: 45px;
+	text-align: left;
+}
+.footer-about ul li a{
+	color: var(--grey);
+	font-size: 19px;
+}
+.footer-about ul li a:hover{
+	color: var(--green);
+}
+/*service css ends here*/
+
+/*blog css starts here*/
+header.bg-white{
+	position: unset;
+}
+header ._offerbar{
+	width: 100%;
+	height: 45px;
+	background: #723421;
+	font-weight: 300;
+}
+header .get_para{
+	letter-spacing: 1px;
+}
+.nav-item .service_link{
+	font-weight: 600 !important;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #231f20;
+	letter-spacing: .8px;
+}
+.home_list{
+	display: none;
+	list-style: none;
+}
+/*.service_link:hover + .home_list{
+	display: block;
+	width: auto;
+	background: red;
+}*/
+button.calling_no{
+	width: 180px;
+	height: 50px;
+	color: white;
+	font-weight: 600;
+	background: #c74a14;
+}
+header section.blog_banner_section{
+	background: url(images/masala.jpg);
+	width: 100%;
+	height: 35vh;
+	background-size: cover;
+}
+.blog_banner_section h1.stay_title{
+	font-size: 70px;
+	margin-top: 85px !important;
+}
+/*category section of blog page*/
+body.blog_body{
+	background: #efefef;
+}
+.category_title{
+	color: #c74a14;
+	font-weight: 400;
+}
+p.scroller{
+	overflow: scroll;
+	overflow-x: hidden;
+	height: 57vh;
+	margin-right:20px;
+}
+.scroller::-webkit-scrollbar {
+	width: 10px;
+}
+p.scroller::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey;
+	border-radius: 10px;
+}
+p.scroller::-webkit-scrollbar-thumb {
+	background: #c74a14; 
+	border-radius: 10px;
+}
+.ayur_line{
+	border-bottom: 2px solid #efefef;
+}
+.cup_image{
+	position: relative;
+}
+.carousel-item .panchkarma_block{
+	width: 400px;
+	height: auto;
+	background: rgba(255, 0, 0, 0.5);
+	position: absolute;
+	z-index: 9999;
+	top: 0;
+	right: 0;
+}
+@media (max-width: 704px){
+	.carousel-item .panchkarma_block{
+		width: 400px;
+		height: auto;
+		background: transparent;
+		position: unset;
+	}
+	.panchkarma_block h3.panchkarma_title{
+		color: black !important;
+		font-size: 34px;
+/*		margin-top: 86px;*/
+	}
+}
+.panchkarma_block h3.panchkarma_title{
+	color: lightgoldenrodyellow;
+	margin-top: 86px;
+	line-height: 32px;
+}
+.panchkarma_block h6.ayurveda{
+	line-height: 20px;
+	font-size: 18px;
+	letter-spacing: 0.8px;
+	font-weight: 400;
+}
+.carousel-item .grass_img{
+	max-height: 70vh !important;
+}
+/*threapy_section css starts here*/
+section.therapy_section .book_block{
+	background: #c74a14;
+}
+form .form_width,.bg_btn{
+	width: 85%;
+	background: #9a3109;
+	border: none;
+	color: white;
+}
+form .bg_btn{
+	background: #723421;
+	font-weight: bold;
+}
+section.therapy_section .blog_img{
+	max-height: 25vh;
+}
+section.therapy_section .card{
+	border-radius: 0px !important;
+	border: 0px;
+}
+section.therapy_section .card .read_btn{
+	background: #c74a14;
+	width: 150px;
+	color: white;
+}
+section.therapy_section .card .card-header p.well_being:hover{
+	background: #c74a14;
+	width: 250px;
+	border-radius: 52px;
+	color: white;
+	padding-left: 15px;
+}
+@media(max-width: 991px){
+	header .blog_service{
+		background: white !important;
+	}
+	section.blog_banner_section .fs_for_small{
+		font-size: 54px;
+	}
+}
+@media(max-width: 768
+	px){
+	section.blog_banner_section .veda_text{
+		color: black;
+	}
+}
